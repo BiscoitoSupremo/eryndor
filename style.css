@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    font-family: 'Caveat', cursive;
+    color: #f1f1f1;
+    cursor: url('https://cur.cursors-4u.net/user/use-1/use92.cur'), auto; 
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .entry {
+    margin-bottom: 30px;
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.05);
+    transition: 0.3s ease;
+  }
+  
+  .entry:hover {
+    background-color: #2a2a2a;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    transform: scale(1.01);
+  }
+  
+  .entry.eryndor {
+    font-size: 1.5rem;
+    color: #ddd;
+    border-left: 4px solid #444;
+    transition: 0.3s;
+  }
+  
+  .entry.eryndor:hover {
+    border-left: 4px solid #999;
+    color: #fff;
+    background-color: #252525;
+  }
+  
+  .entry.anotacao textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 80px;
+    font-size: 1.1rem;
+    font-family: 'Caveat', cursive;
+    background-color: #2a2a2a;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.3);
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  .entry.anotacao textarea:hover {
+    background-color: #333;
+    box-shadow: 0 0 8px rgba(255,255,255,0.05);
+  }
+  
+  .entry.anotacao textarea:focus {
+    background-color: #3a3a3a;
+    box-shadow: 0 0 12px rgba(255,255,255,0.1);
+  }
+  
+  .entry.iframe-box iframe {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s ease;
+  }
+  
+  .entry.iframe-box:hover iframe {
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.08);
+  }
+  
+  .entry.eryndor::before {
+    content: "🕵️‍♂️ ";
+    opacity: 0.3;
+    transition: 0.4s;
+  }
+  
+  .entry.eryndor:hover::before {
+    opacity: 1;
+  }
+  
+  textarea::placeholder {
+    color: #aaa;
+    transition: 0.3s;
+  }
+  
+  textarea:hover::placeholder {
+    color: #ccc;
+  }
+  
+  textarea:focus::placeholder {
+    color: transparent;
+  }
+  
